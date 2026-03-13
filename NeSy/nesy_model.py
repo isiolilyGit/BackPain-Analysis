@@ -24,8 +24,8 @@ import torch
 import torch.nn as nn
 from typing import Dict, List, Tuple
 
-from neural_encoder import NeuralEncoder # type: ignore
-from symbolic_rules import SymbolicRuleEngine
+from NeSy.neural_encoder import NeuralEncoder # type: ignore
+from NeSy.symbolic_rules import SymbolicRuleEngine
 
 
 class NeSyPainClassifier(nn.Module):

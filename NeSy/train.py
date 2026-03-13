@@ -17,8 +17,8 @@ import pandas as pd
 import numpy as np
 from sklearn.metrics import classification_report, confusion_matrix
 
-from data_loader import prepare_data, CLASS_NAMES
-from nesy_model import NeSyPainClassifier, NeSyLoss
+from NeSy.data_loader import prepare_data, CLASS_NAMES
+from NeSy.nesy_model import NeSyPainClassifier, NeSyLoss
 
 # Config 
 
